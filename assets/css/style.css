@@ -1,0 +1,27 @@
+/* common css start */
+.container{
+ min-width: 360px;
+}
+:root{
+   --primary-color: #51B56D;
+    --secondary-color: #FDFAFA;
+    --light-color: #FEFBFC;
+    --dark-color: #040404;
+}
+/* common css end */
+.title p{
+ color: var(--primary-color);
+}
+#Questions h1{
+  	color: var(--dark-color)
+   font-family: "Rubik", sans-serif;
+   font-weight: 700;
+}
+.accordion-item a{
+ text-decoration: none;
+ color: var(--dark-color);
+}
+
+.address a{
+ color: var(--primary-color);
+}
